@@ -229,6 +229,10 @@ input#email {
     font-weight: 400;
 }
 
+input#email:focus {
+    border: none;
+}
+
 button.submit_btn {
     border: none;
     background: rgba(255, 88, 155, 1);
@@ -493,7 +497,6 @@ button.submit_btn {
     .shoes_section {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
     }
 }
 
